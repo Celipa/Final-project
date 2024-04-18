@@ -6,7 +6,7 @@ exports.createMessage = async (req, res) => {
         if (!name || !email || !message) {
             return res.status(400).json({ message: 'Missing required fields: name, email, and message' });
         }
-        res.status(200).json({ message: 'Message sent successfully' });
+        res.status(200).json({ message: 'Message sent successfull' });
     } catch (error) {
         console.log(error.message);
         res.status(500).json({error: error.message});

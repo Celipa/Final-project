@@ -41,7 +41,7 @@ const router = createBrowserRouter([
     element: <ContactPage />
   }
 ])
-
+// Render the application
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ProductProvider>

@@ -10,7 +10,7 @@ exports.createOrder = asyncHandler(async (req, res) => {
     console.log(token + "orderControllertoken");
     if (!token) {
       res.status(401);
-      throw new Error('No token, authorization denied');
+      throw new Error('No token, authorization denie');
     }
   
     try {

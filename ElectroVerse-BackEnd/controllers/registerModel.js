@@ -13,7 +13,7 @@ const registerSchema = mongoose.Schema({
         type: String,
         required: true,
         validate: {
-          // This custom validator checks that confirmPassword is the same as password
+          // This custom validator checks that confirmPassword is the same as passwword
           validator: function(value) {
             return this.password === value;
           },

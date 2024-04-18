@@ -15,8 +15,7 @@ const productSchema = new mongoose.Schema({
     },
     category: {
         type: String,
-        required: true,
-        enum: ['TV', 'Laptop', 'Phones', 'Vacuum Cleaners']
+        required: true
     },
     images: {
         type: [String],
