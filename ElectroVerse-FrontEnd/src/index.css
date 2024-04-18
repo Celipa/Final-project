@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: block;
+    margin-top: 6.4rem;
+    background-color: rgb(238, 238, 238)
+}

@@ -1,0 +1,47 @@
+.OrdersPage {
+    padding: 1rem;
+  }
+  
+  .OrdersPage h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .OrdersPage .order {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .OrdersPage .order h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .OrdersPage .order ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .OrdersPage .order ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+  }
+  
+  .OrdersPage .order ul li h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .OrdersPage .order ul li p {
+    color: #666;
+    margin: 0;
+  }
+  
+  .OrdersPage .order p.total {
+    color: #333;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
